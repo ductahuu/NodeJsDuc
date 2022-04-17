@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+
+
+    <%= sinhVien.name%>
+    <%= sinhVien.age%>
+
+    <% for (var i = 0;i < mang.length;i++){%>
+      <button onclick="alert(<%= mang[i] %>)"><%= mang[i] %> </button>
+      <% } %>
+
+
+  </body>
+</html>
